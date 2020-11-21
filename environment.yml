@@ -89,7 +89,6 @@ dependencies:
     - sphinxcontrib-jsmath==1.0.1
     - sphinxcontrib-qthelp==1.0.3
     - sphinxcontrib-serializinghtml==1.1.4
-    - svmbir==1.0
     - tifffile==2020.11.18
     - toolz==0.11.1
     - tornado==6.1
