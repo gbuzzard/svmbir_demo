@@ -1,1 +1,0 @@
-# svmbir_demo
