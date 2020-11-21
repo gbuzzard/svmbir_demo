@@ -32,18 +32,21 @@ if __name__ == '__main__':
     vmax = 1.2
 
     # Generate phantom
+    print('Generating 3D phantom')
     phantom = svmbir.phantom.gen_shepp_logan_3d(num_rows_cols,num_rows_cols,num_slices)
 
     # Generate array of view angles form -180 to 180 degs
     angles = np.linspace(-tilt_angle, tilt_angle, num_views, endpoint=False)
 
     # Generate sinogram by projecting phantom
+    print('Generating sinogram')
     sino = svmbir.project(angles, phantom, num_rows_cols )
 
     # Determine resulting number of views, slices, and channels
     (num_views, num_slices, num_channels) = sino.shape
 
     # Perform MBIR reconstruction
+    print('Performing reconstruction')
     recon = svmbir.recon(sino, angles, T=T, p=p, sharpness=sharpness, snr_db=snr_db)
 
     # Compute Normalized Root Mean Squared Error
