@@ -10,12 +10,14 @@ Installation:
 1. Download and install svmbir from the `svmbir repo`_ and follow the instructions to run a demo in that codebase.
 
 2. Create and activate a conda environment for svmbir_demo using environment.yml.  E.g., from a terminal, go to the main svmbir_demo_trial directory and enter
+
     .. code-block::
 
         conda env create -f environment.yml
         conda activate svmbir_demo
 
 3. From the same terminal, invoke
+
     .. code-block::
 
         pip install napari[all]
