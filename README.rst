@@ -30,4 +30,4 @@ Installation:
 
 .. _svmbir documentation: https://svmbir.readthedocs.io/
 
-.. _svmbir repo: <https://github.com/cabouman/svmbir>`_
+.. _svmbir repo: https://github.com/cabouman/svmbir
