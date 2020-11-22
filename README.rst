@@ -2,16 +2,18 @@ svmbir_demo
 ===========
 
 This is a set of examples showing the use and visualization of
-data using svmbir reconstructions. 
+data using svmbir reconstructions.  See the `svmbir documentation`_ for more information about svmbir.
+
+.. _svmbir documentation: https://svmbir.readthedocs.io/
 
 Installation:
 -------------
 
-1. Download and install svmbir from the `svmbir repo`_ and run a demo in that codebase.
+1. Download and install svmbir from the `svmbir repo`_ and follow the instructions to run a demo in that codebase.
 
 .. _svmbir repo: <https://github.com/cabouman/svmbir>`_
 
-2. Create and activate a conda environment using environment.yml.  E.g., from a terminal, go to the main svmbir_demo_trial directory and enter
+2. Create and activate a conda environment for svmbir_demo using environment.yml.  E.g., from a terminal, go to the main svmbir_demo_trial directory and enter
     .. code-block::
 
         conda env create -f environment.yml
